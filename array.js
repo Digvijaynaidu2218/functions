@@ -1,0 +1,10 @@
+let fruits=["apple","banana","cherry"];
+fruits.forEach(fruits => console.log(fruits));
+fruits.push("mango");
+fruits.forEach(fruits => console.log(fruits));
+fruits.pop();
+fruits.forEach(fruits => console.log(fruits));
+fruits.shift();
+fruits.forEach(fruits => console.log(fruits));
+fruits.unshift("cat");
+fruits.forEach(fruits => console.log(fruits));
